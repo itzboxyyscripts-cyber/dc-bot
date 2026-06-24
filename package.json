@@ -1,1 +1,16 @@
-{ "name": "my-discord-bot", "version": "1.0.0", "main": "bot.ts", "scripts": { "build": "tsc", "start": "ts-node bot.ts" }, "dependencies": { "discord.js": "^14.14.1", "ts-node": "^10.9.2", "typescript": "^5.3.3" } }
+json
+{
+  "name": "my-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.ts",
+  "scripts": {
+    "build": "echo 'No build step needed'",
+    "start": "ts-node bot.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
